@@ -138,23 +138,25 @@ Fonction pour gérer le changement de numéro de page
 
 	return (
 		<div className='table_container'>
-			<div className='table_length'>
-				<label>
-					Show{' '}
-					<select className='mx-2 border rounded p-1' onChange={handleSelectChange}>
-						<option value='10'>10</option>
-						<option value='25'>25</option>
-						<option value='50'>50</option>
-						<option value='100'>100</option>
-					</select>{' '}
-					entries
-				</label>
-			</div>
-			<div className='table_filter'>
-				<label>
-					Search:
-					<input type='search' className='mx-2 border rounded p-1' value={search} onChange={handleSearch} />
-				</label>
+			<div className='flex justify-between mb-5'>
+				<div className='table_length'>
+					<label>
+						Show{' '}
+						<select className='mx-2 border rounded p-1' onChange={handleSelectChange}>
+							<option value='10'>10</option>
+							<option value='25'>25</option>
+							<option value='50'>50</option>
+							<option value='100'>100</option>
+						</select>{' '}
+						entries
+					</label>
+				</div>
+				<div className='table_filter'>
+					<label>
+						Search:
+						<input type='search' className='mx-2 border rounded p-1' value={search} onChange={handleSearch} />
+					</label>
+				</div>
 			</div>
 			<table className='data_table border w-full'>
 				<thead className='bg-gray-50'>
