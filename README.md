@@ -29,5 +29,6 @@ Votre équipe de développement s'efforce depuis un certain temps déjà de mett
 
 [Visuel - Apres]
 ![AAPpng](https://user-images.githubusercontent.com/94462048/221059736-def34b00-fb76-4966-a4de-15a9cd529f57.png)
-![TAP](https://user-images.githubusercontent.com/94462048/221059740-b47e6b66-3e8b-4b4f-972f-a327fbc44d61.png)
+![Capture d’écran 2023-02-24 011938](https://user-images.githubusercontent.com/94462048/221061128-ce21a43b-8628-40b4-a413-4bb46edb59aa.png)
+
 
