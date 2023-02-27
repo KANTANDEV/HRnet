@@ -1,1 +1,1 @@
-export { default as DataInput } from './DataInput';
+export { default as DataInput } from './lib/DataInput';

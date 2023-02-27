@@ -20,7 +20,7 @@ This package contains the following components :
 To import components into your code use the syntax as in the example below
 
 ```
-import DataInput from 'hrnet-datainput/src/DataInput'
+import DataInput from 'hrnet-datainput/src'
 
 ```
 
@@ -29,7 +29,7 @@ import DataInput from 'hrnet-datainput/src/DataInput'
 ```
 import React from 'react'
 import ReactDOM from 'react-dom'
-import DataInput from './DataInput'
+import DataInput from 'hrnet-datainput/src'
 
 const App = () => {
   return (

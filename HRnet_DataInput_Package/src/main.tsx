@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import DataInput from './DataInput'
+import DataInput from './lib/DataInput'
 
 const App = () => {
 	return (
