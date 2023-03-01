@@ -68,7 +68,7 @@ export default ({ setPage, setEmployees }: PropsType) => {
 	const modalErrTitle = 'Error !'
 
 	return (
-		<div className='flex flex-col justify-center items-center h-screen'>
+		<div className='flex flex-col justify-center items-center'>
 			<div className='bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2'>
 				<div className='title text-center'>
 					<h1 className='text-3xl font-bold mb-2'>HRnet</h1>

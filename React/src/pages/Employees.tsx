@@ -33,7 +33,7 @@ const columns = [
 export default ({ setPage, employees }: PropsType) => {
 	return (
 		<>
-			<div id='employee-div' className='container mx-auto mt-10'>
+			<div id='employee-div' className='m-20 '>
 				<h1 className='text-center text-3xl font-bold mb-5'>Current Employees</h1>
 				{/* //! Affiche les données sur les employés */}
 				<DataTable data={employees} columns={columns} />
